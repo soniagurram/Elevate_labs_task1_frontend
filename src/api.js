@@ -1,8 +1,7 @@
 import axios from "axios";
 
 // Update this to your FastAPI backend URL
-const BASE_URL = "http://localhost:8000";
-
+const BASE_URL = "https://elevate-labs-task1.onrender.com";
 export const getEmployees = async () => {
   try {
     const res = await axios.get(`${BASE_URL}/employees/`);
